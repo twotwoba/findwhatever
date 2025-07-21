@@ -29,8 +29,8 @@ const INIT_SETTING = {
 	underlineStyle: 'solid',
 	underlineColor: '#000000',
 
-	bgColorActive: '#ff8b3a',
-	textColorActive: '#000000',
+	bgColorActive: '#000000',
+	textColorActive: '#ff8b3a',
 	isSame: true,
 	isOpenUnderlineActive: false,
 	underlineOffsetActive: 2,

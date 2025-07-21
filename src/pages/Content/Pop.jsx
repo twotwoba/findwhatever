@@ -402,7 +402,7 @@ export const Pop = () => {
 								<div id="searchwhatever_result" className="text-xs flex items-center select-none text-[#333] justify-end">
 									<FindResult total={total} current={current}/>
 								</div>
-								<ExtraArea isHidePanel={isHidePanel} isHidePanelTemporarily={isHidePanelTemporarily} isShowSetting={sweSetting.isShowSetting ?? true} updateIsHidePanel={setIsHidePanel} updateIsHidePanelTemporarily={setIsHidePanelTemporarily} />
+								{/* <ExtraArea isHidePanel={isHidePanel} isHidePanelTemporarily={isHidePanelTemporarily} isShowSetting={sweSetting.isShowSetting ?? true} updateIsHidePanel={setIsHidePanel} updateIsHidePanelTemporarily={setIsHidePanelTemporarily} /> */}
 							</div>
 							<div className="flex items-center w-full">
 								<div className="swe_search relative">
@@ -540,14 +540,14 @@ export const Pop = () => {
 										</div>
 									</Input>
 								</div>
-								<div className="flex items-center">
+								{/* <div className="flex items-center">
 									<Button type="text" danger shape="circle" className="w-6 !h-6 min-w-0 ml-2 cursor-pointer" onClick={closePop}>
 										<svg className="icon w-2.5 h-2.5" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32">
 											<path d="M12.47232 12.51328C26.74688-1.76128 49.5104-2.90816 65.15712 9.84064l2.93888 2.70336L1009.664 955.37152c14.96064 14.80704 15.62624 38.76864 1.51552 54.38464-14.12096 15.616-38.02112 17.3568-54.26176 3.95264l-2.9696-2.70336L12.41088 68.17792c-15.34976-15.39072-15.31904-40.30464 0.06144-55.66464z m0 0" fill="red"/>
 											<path d="M1009.67424 12.51328c-14.2848-14.27456-37.04832-15.42144-52.69504-2.67264l-2.99008 2.70336L12.41088 955.37152c-14.96064 14.80704-15.62624 38.76864-1.51552 54.38464 14.12096 15.616 38.02112 17.3568 54.25152 3.95264l2.9696-2.70336 941.568-942.82752c15.34976-15.38048 15.32928-40.30464-0.0512-55.66464h0.04096z m0 0" fill="red"/>
 										</svg>
 									</Button>
-								</div>
+								</div> */}
 							</div>
 						</div>
 					</motion.div>
